@@ -1,0 +1,4 @@
+Juego clasico de la Vibora,
+
+Este juego se encuentra desarrollado en Python usando la clase de Turtle
+para la parte grafica y aprendemos a usar las clases.

@@ -1,0 +1,2 @@
+En este programa se usa la API propia de Kanye y se usa para obtener
+informacion de sus frases, esta realizado con Tkinter para la parte grafica.

@@ -1,0 +1,4 @@
+En este programa esta disenado para que 
+se ejecute de forma automatica en un servidor y se realiza una conexion por medio
+de APIS para obtener el clima y que te mande un msj si esta pronosticado lluvia,
+aprendemos a apis para mandar msj de manera automatica..

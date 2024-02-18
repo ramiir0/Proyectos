@@ -1,0 +1,5 @@
+Quizz es una aplicacion grafica que va realizando preguntas
+de forma aleatoria y el usuario debe contestar verdadero o falso
+por medio de botones, la primera version era con preguntas locales 
+en el archivo data, pero se automatizo para que sea directamente por 
+medio de la API opentdb, se usa Tkinter para la parte grafica.

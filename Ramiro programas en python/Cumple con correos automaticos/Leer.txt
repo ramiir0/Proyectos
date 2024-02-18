@@ -1,0 +1,6 @@
+programa para enviar felicitaciones de cumple de forma automatica, 
+en el programa se llena un archivo con los datos de las personas a felicitar
+y se pueden agregar varias cartas, en este ejemplo solo se pusieron 3 y el programa
+elige una de forma aleatoria.
+
+en este programa se usa PANDAS 

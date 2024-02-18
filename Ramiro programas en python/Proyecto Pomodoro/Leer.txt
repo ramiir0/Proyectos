@@ -1,0 +1,2 @@
+se realiza el proyecto pomodoro con Tkinter para poder
+usarlo de manera grafica 

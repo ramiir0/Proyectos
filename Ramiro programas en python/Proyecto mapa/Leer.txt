@@ -1,0 +1,3 @@
+Este este programa tenemos que adivinar el nombre de cada estado de EUA,
+los nombres se obtienen de un archivo CSV, para la parte grafica se usa
+Tkinter y para la lectura de datos se usa PANDAS.

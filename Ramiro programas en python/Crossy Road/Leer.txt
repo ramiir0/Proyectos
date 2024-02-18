@@ -1,0 +1,3 @@
+en este programa realizamos un juego parecido a Crossy Road, solo que 
+con graficos de Turtle. 
+en este programa se estudia lo que son las clases.

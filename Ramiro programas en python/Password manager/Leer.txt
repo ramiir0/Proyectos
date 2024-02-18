@@ -1,0 +1,5 @@
+En este programa se usa TKinter para la parte grafica
+y es un gestor de contrasenas donde puedes poner una contrasena propia
+o que el programa te eliga una de manera aleatoria usando los requisitos sig:
+Letras mayusculas, numeros y caracteres especiales, se usa JSON para almacenar 
+datos.

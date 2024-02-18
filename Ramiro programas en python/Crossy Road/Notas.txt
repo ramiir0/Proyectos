@@ -1,0 +1,66 @@
+1. Una tortuga avanza cuando presionas la tecla "Arriba". 
+Sólo puede avanzar, no retroceder, ni hacia la izquierda ni hacia la derecha.
+
+2. Los autos se generan aleatoriamente a lo largo del eje y y se moverán desde el borde derecho
+de la pantalla al borde izquierdo.
+
+3. Cuando la tortuga llega al borde superior de la pantalla, regresa a la posición original 
+y el jugador sube de nivel. En el siguiente nivel, la velocidad del coche aumenta.
+
+4. Cuando la tortuga choca con un auto, se termina el juego y todo se detiene.
+
+Si aún no lo ha hecho, descargue el proyecto inicial aquí y ábralo dentro de PyCharm.
+
+-El primer paso para crear cualquier proyecto grande es dividir el problema en partes más pequeñas. 
+Agregue los siguientes comentarios al código inicial e intente abordarlos uno por uno.
+
+-Crea un reproductor de tortugas que comience en la parte inferior de la pantalla 
+y escucha la pulsación de la tecla "Arriba" para mover la tortuga hacia el norte. 
+Si te quedas atascado, consulta el video tutorial en el Paso 3.
+
+-Cree automóviles de 20 px de alto por 40 px de ancho que se generen aleatoriamente a lo largo del eje y 
+y se muevan hacia el borde izquierdo de la pantalla. No se deben generar automóviles en los 50 píxeles 
+superiores e inferiores de la pantalla (piense en ello como una zona segura para nuestra pequeña tortuga). 
+Sugerencia: genera un auto nuevo solo cada 6 veces que se ejecuta el ciclo del juego. 
+Si te quedas atascado, consulta el video tutorial en el Paso 4.
+
+Detecta cuando el jugador tortuga choca con un coche y detiene el juego si esto sucede. 
+Si te quedas atascado, consulta el video tutorial en el Paso 5.
+
+Detecta cuando el jugador tortuga ha alcanzado el borde superior de la pantalla 
+(es decir, ha alcanzado FINISH_LINE_Y). Cuando esto suceda, regresa la tortuga a la posición inicial 
+y aumenta la velocidad de los autos. Sugerencia: piense en crear un atributo y usar MOVE_INCREMENT 
+para aumentar la velocidad del automóvil. Si te quedas atascado, consulta el video tutorial en el Paso 6.
+
+Cree un marcador que realice un seguimiento del nivel en el que se encuentra el usuario. 
+Cada vez que el jugador tortuga realiza un cruce exitoso, el nivel debería aumentar. 
+Cuando la tortuga choca contra un automóvil, se debe mostrar GAME OVER en el centro. 
+Si te quedas atascado, consulta el video tutorial en el Paso 7.
+
+
+
+
+    def coloresRandom(self):
+        for _ in COLORS:
+            self.color(random.choice(COLORS))
+            
+    
+    def posicionRandom(self):
+        for x in range(0,30):
+            self.eje_x = 270
+            self.eje_x = self.xcor() - 5 
+            self.eje_y = random.randint(-270, 270)
+            self.goto(self.eje_x, self.ycor()) 
+            self.goto(self.eje_x, self.eje_y)
+
+    
+    def avance(self):
+        time.sleep(0.5)
+        self.eje_x = self.xcor() - 5 
+        return self.goto(self.eje_x, self.ycor()) 
+        
+        
+    def calis(self):
+            self.color(random.choice(COLORS))
+            self.posicionRandom()
+            self.avance()

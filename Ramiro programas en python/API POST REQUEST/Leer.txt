@@ -1,0 +1,3 @@
+en este codigo se usa la API de pixela para poder
+crear un formulario de un estilo de vida, en este caso se usara para llevar un historial
+de tiempo y dias haciendo ciclismo.
