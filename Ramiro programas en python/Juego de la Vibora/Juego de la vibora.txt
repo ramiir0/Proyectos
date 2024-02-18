@@ -1,4 +1,5 @@
 Juego clasico de la Vibora,
 
 Este juego se encuentra desarrollado en Python usando la clase de Turtle
-para la parte grafica y aprendemos a usar las clases.
+para la parte grafica, el juego consta de ir comiendo para que la vibora pueda ir incrementando su
+tamano y si choca en alguna pared pierde automaticamente. 
