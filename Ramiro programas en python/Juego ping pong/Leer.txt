@@ -1,4 +1,5 @@
 Juego clasico de ping pong,
 
 Este juego se encuentra desarrollado en Python usando la clase de Turtle
-para la parte grafica y aprendemos a usar las clases.
+para la parte grafica, la velocidad de la pelota va aumentando cada que choca con una
+pala y se reinicia de nuevo la velocidad cuando un jugador pierde.
